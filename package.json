@@ -1,0 +1,21 @@
+{
+  "name": "emoji-time",
+  "version": "1.0.0",
+  "description": "time in emojis",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caub/emoji-time.git"
+  },
+  "keywords": [
+    "time",
+    "emoji"
+  ],
+  "author": "caub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caub/emoji-time/issues"
+  },
+  "homepage": "https://github.com/caub/emoji-time#readme"
+}
