@@ -1,7 +1,7 @@
 {
   "name": "emoji-time",
-  "version": "1.0.1",
-  "description": "time in emojis",
+  "version": "2.0.1",
+  "description": "time in emoji",
   "main": "index.js",
   "scripts": {
     "test": "node test"

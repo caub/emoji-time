@@ -1,11 +1,12 @@
-# emoji-time
+# :clock1: emoji-time
 [![npm version][npm-image]][npm-url]
 
 
 ```js
-const emojiTime = require('emoji-time');
-console.log(emojiTime()); // some emoji at your current time
-console.log(emojiTime(new Date('2017-11-16 23:00'))); // 🕚
+const time = require('emoji-time');
+
+console.log(time()); // some emoji at your current time
+console.log(time(new Date('2017-11-16 23:00'))); // 🕚
 ```
 
 [npm-image]: https://img.shields.io/npm/v/emoji-time.svg?style=flat-square
