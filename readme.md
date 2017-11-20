@@ -9,6 +9,7 @@ const time = require('emoji-time');
 
 console.log(time()); // some emoji at your current time
 console.log(time(new Date('2017-11-16 23:00'))); // 🕚
+console.log(time('23:35')); // 🕦
 ```
 
 [npm-image]: https://img.shields.io/npm/v/emoji-time.svg?style=flat-square

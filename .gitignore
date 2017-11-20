@@ -1,2 +1,4 @@
 /node_modules
 /dist
+/emoji-time.js
+/.nyc_output*

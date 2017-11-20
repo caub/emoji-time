@@ -1,6 +1,6 @@
 {
   "name": "emoji-time",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "time in emoji",
   "main": "index.js",
   "files": ["index.js", "dist/"],
