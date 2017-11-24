@@ -1,4 +1,4 @@
 language: node_js
 node_js: "8"
 
-after_success: npx nyc report --reporter=lcov > coverage.lcov && codecov
+after_success: npx nyc report --reporter=lcov > coverage.lcov && npx codecov

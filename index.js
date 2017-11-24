@@ -1,6 +1,6 @@
 var clocks = Array.from('🕛🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙🕚🕧🕜🕝🕞🕟🕠🕡🕢🕣🕤🕥🕦');
 
-module.exports = function emojiTime(date) {
+export default function emojiTime(date) {
   var m, H;
   if (typeof date === 'string') {
     var a = date.split(/\D/, 2);

@@ -1,4 +1,5 @@
 /node_modules
 /dist
 /emoji-time.js
+coverage
 /.nyc_output*
