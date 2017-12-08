@@ -1,9 +1,13 @@
 {
   "name": "emoji-time",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "time in emoji",
   "main": "emoji-time.js",
-  "files": ["emoji-time.js"],
+  "module": "index.js",
+  "files": [
+    "index.js",
+    "emoji-time.js"
+  ],
   "scripts": {
     "test": "nyc rollup -c && node test",
     "prepare": "rollup -c"
@@ -24,7 +28,7 @@
   "homepage": "https://github.com/caub/emoji-time#readme",
   "devDependencies": {
     "codecov": "^3.0.0",
-    "nyc": "^11.3.0",
-    "rollup": "^0.51.7"
+    "nyc": "^11.4.0",
+    "rollup": "^0.51.8"
   }
 }
