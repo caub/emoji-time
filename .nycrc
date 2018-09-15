@@ -1,0 +1,9 @@
+{
+  "extension": [
+    ".mjs"
+  ],
+  "require": [
+    "@std/esm"
+  ],
+  "check-coverage": true
+}

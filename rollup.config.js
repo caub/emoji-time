@@ -1,7 +1,7 @@
 export default {
-  name: 'emojiTime',
-  input: 'index.js',
+  input: 'index.mjs',
   output: {
+    name: 'emojiTime',
     file: 'emoji-time.js',
     format: 'umd'
   }

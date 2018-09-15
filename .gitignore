@@ -2,4 +2,5 @@
 /dist
 /emoji-time.js
 coverage
+package-lock.json
 /.nyc_output*

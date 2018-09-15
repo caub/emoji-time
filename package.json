@@ -1,34 +1,29 @@
 {
   "name": "emoji-time",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "time in emoji",
   "main": "emoji-time.js",
-  "module": "index.js",
+  "module": "index.mjs",
   "files": [
-    "index.js",
+    "index.mjs",
     "emoji-time.js"
   ],
   "scripts": {
-    "test": "nyc rollup -c && node test",
+    "test": "nyc node test",
     "prepare": "rollup -c"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/caub/emoji-time.git"
-  },
+  "repository": "github:caub/emoji-time",
   "keywords": [
     "time",
     "emoji"
   ],
   "author": "caub",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/caub/emoji-time/issues"
-  },
   "homepage": "https://github.com/caub/emoji-time#readme",
   "devDependencies": {
-    "codecov": "^3.0.0",
-    "nyc": "^11.4.0",
-    "rollup": "^0.51.8"
+    "@std/esm": "^0.26.0",
+    "codecov": "^3.1.0",
+    "nyc": "^13.0.1",
+    "rollup": "^0.65.2"
   }
 }
